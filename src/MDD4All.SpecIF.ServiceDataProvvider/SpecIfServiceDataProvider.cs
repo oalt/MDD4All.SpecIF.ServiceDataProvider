@@ -22,7 +22,7 @@ namespace MDD4All.SpecIF.ServiceDataProvider
 
 		private List<SpecIfServiceDescription> _serviceDescriptions = new List<SpecIfServiceDescription>();
 
-		public SpecIfServiceDataProvider(string consulURL = "http://localhost:8500")
+		public SpecIfServiceDataProvider(string consulURL = "http://127.0.0.1:8500")
 		{
 			_consulURL = consulURL;
 
